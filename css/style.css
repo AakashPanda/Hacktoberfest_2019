@@ -6,7 +6,8 @@
 body {
     max-width: 500px;
     margin: auto;
-	font-family: "Space Mono", monospace;
+    font-family: "Space Mono", monospace;
+    margin-top: 50px;
 }
 
 #hacktober-logo {
@@ -37,6 +38,16 @@ body {
     margin-top: 5px;
     display: inline-block;
     border-radius: 30px;
+    width: 250px;
+    border-bottom: 3px solid #06608a;
+}
+
+.shadow:hover{
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(83, 82, 82, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-bottom: 3px solid #ffffff;
+    color: aquamarine;
 }
 
 p, h1 {
@@ -48,6 +59,7 @@ p, h1 {
 .bigWhite {
     color:#fff;
 }
+
 
 .button > svg {
     background-color: #a11ec6;
@@ -74,3 +86,10 @@ p, h1 {
 #share-buttons > * {
     vertical-align: middle;
   }
+
+marquee:hover{
+    color: rgb(20, 15, 15);
+  text-shadow: 2px 2px 4px #f5f3f3;
+}
+
+
